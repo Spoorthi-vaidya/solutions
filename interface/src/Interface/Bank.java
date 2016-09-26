@@ -9,10 +9,6 @@ public interface Bank
 
 	
 	
-	
-	
-	
-	
 }
 class Account implements Bank
 {	String Sname;
