@@ -4,8 +4,11 @@ public class DemoAir
 {
 public static void main(String[] args)
 {
+	Airport a;
+	
 	Traveller  t=new Traveller("spoo",1000,9738340335l, 1997);
-		if(t.checkbaggage(t)==true)
+	a=t;
+	if(t.checkbaggage(t)==true)
 			
 		{
 			System.out.println(" person is valid to travel");

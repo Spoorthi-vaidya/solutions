@@ -1,11 +1,11 @@
 package Interface;
-
+import java.util.Scanner;
 public interface Airport 
 {
-	
-	String sName=null;
-	String scode=null;
-	boolean bdutyfree=true;
+	Scanner sc=new Scanner(System.in);
+	String sName=sc.next();
+	String scode=sc.next();
+	boolean bdutyfree=sc.hasNextBoolean();
 	
 	
 	
